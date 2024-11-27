@@ -1,0 +1,106 @@
+[asa-run="0"] {
+  visibility: hidden;
+}
+
+.asa-char-rules {
+  white-space: pre;
+}
+
+.asa-animation-basic {
+  animation-name: asa-animation-basic;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes asa-animation-basic {
+  0% {
+    transform: scale(100%);
+  }
+  25% {
+    transform: scale(0%);
+  }
+  50% {
+    transform: scale(125%);
+  }
+  75% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
+.asa-animation-rotate {
+  animation-name: asa-animation-rotate;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes asa-animation-rotate {
+  0% {
+    transform: scale(100%);
+  }
+  25% {
+    transform: scale(0%) rotate(180deg);
+  }
+  50% {
+    transform: scale(125%);
+  }
+  75% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
+.asa-animation-push {
+  animation-name: asa-animation-push;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes asa-animation-push {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  40% {
+    transform: translateX(-50%);
+  }
+  60% {
+    transform: translateX(25%);
+  }
+  80% {
+    transform: translateX(-12.5%);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.asa-animation-knock {
+  animation-name: asa-animation-knock;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes asa-animation-knock {
+  0% {
+    transform: skewX(0deg);
+  }
+  20% {
+    transform: skewX(30deg);
+  }
+  40% {
+    transform: skewX(-15deg);
+  }
+  60% {
+    transform: skewX(7.5deg);
+  }
+  80% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}/*# sourceMappingURL=asa.css.map */

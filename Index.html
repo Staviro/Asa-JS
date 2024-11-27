@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./content/css/animate.css"/>
+    <link rel="stylesheet" href="./content/lib/asa.css"/>
+    <title>ASA JS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="base-div" 
+            id="header" 
+            asa-gap="20" 
+            asa-text="Asa JS" 
+            asa-run="0" 
+            asa-class="big-text" 
+            asa-iteration="infinite" 
+            asa-animation="knock"
+            asa-duration="1000">
+        </div>
+        <div class="text">
+            <p>Version Beta</p>
+            <p class="marked-div"
+                id="release" 
+                asa-gap="20" 
+                asa-text="2024 Nov 27" 
+                asa-run="0"
+                asa-iteration="infinite" 
+                asa-animation="basic"
+                asa-duration="1000">
+            </p>
+            <p>
+                Asa JS is a lightweight JavaScript for performing small and simple animations to text. It is very customizable and easy to extend.
+            </p>
+        </div>
+    </div>
+    <script src="./content/lib/asa.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            asa.run(document.getElementById('header'));
+            asa.run(document.getElementById('release'));
+        })
+    </script>
+</body>
+</html>
