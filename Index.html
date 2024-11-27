@@ -10,26 +10,32 @@
 <body>
     <div class="container">
         <div class="base-div" 
-            id="header" 
-            asa-gap="20" 
-            asa-text="Asa JS" 
-            asa-run="0" 
-            asa-class="big-text" 
-            asa-iteration="infinite" 
-            asa-animation="knock"
-            asa-duration="1000">
-        </div>
+        id="header" 
+        asa-gap="20" 
+        asa-text="Asa JS" 
+        asa-run="0" 
+        asa-class="big-text" 
+        asa-iteration="infinite" 
+        asa-animation="knock"
+        asa-duration="1000"></div>
+        <p class="marked-div"
+        id="author" 
+        asa-gap="20" 
+        asa-text="Created By Joseph Morukhuladi" 
+        asa-run="0"
+        asa-iteration="infinite" 
+        asa-animation="push"
+        asa-duration="1000"></p>
         <div class="text">
             <p>Version Beta</p>
             <p class="marked-div"
-                id="release" 
-                asa-gap="20" 
-                asa-text="2024 Nov 27" 
-                asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="basic"
-                asa-duration="1000">
-            </p>
+            id="release" 
+            asa-gap="20" 
+            asa-text="2024 Nov 27" 
+            asa-run="0"
+            asa-iteration="infinite" 
+            asa-animation="basic"
+            asa-duration="1000"></p>
             <p>
                 Asa JS is a lightweight JavaScript for performing small and simple animations to text. It is very customizable and easy to extend.
             </p>
@@ -40,6 +46,7 @@
         window.addEventListener("load", function() {
             asa.run(document.getElementById('header'));
             asa.run(document.getElementById('release'));
+            asa.run(document.getElementById('author'));
         })
     </script>
 </body>
