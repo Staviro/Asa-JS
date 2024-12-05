@@ -38,18 +38,23 @@
 @keyframes asa-animation-rotate {
   0% {
     transform: scale(100%);
+    opacity: 1;
   }
   25% {
     transform: scale(0%) rotate(180deg);
+    opacity: 0;
   }
   50% {
     transform: scale(125%);
+    opacity: 1;
   }
   75% {
     transform: scale(100%);
+    opacity: 1;
   }
   100% {
     transform: scale(100%);
+    opacity: 1;
   }
 }
 .asa-animation-push {
@@ -89,13 +94,13 @@
     transform: skewX(0deg);
   }
   20% {
-    transform: skewX(30deg);
+    transform: skewX(-30deg) translateX(-8px);
   }
   40% {
-    transform: skewX(-15deg);
+    transform: skewX(15deg) translateX(0%);
   }
   60% {
-    transform: skewX(7.5deg);
+    transform: skewX(-7.5deg);
   }
   80% {
     transform: skewX(0deg);

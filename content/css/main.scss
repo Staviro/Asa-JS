@@ -1,0 +1,70 @@
+@import './fonts';
+@import './components/nav/nav';
+
+html {
+    background: #0a0a0a;
+    background: radial-gradient(circle at top right, #0a0a0a, #0f0f0f, #071409, #0a0a0f);
+}
+
+body {
+    margin: 0;
+    font-family: 'primary', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-display: swap;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-weight: 300;
+
+    button, input {
+        font-family: 'primary', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-size: 16px;
+        font-display: swap;
+    }
+}
+
+.container {
+    padding: 0 16px;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.app-desc {
+    font-size: 18px;
+    padding: 22px 0;
+}
+
+.asa-text-content {
+    display: flex;
+}
+
+.app-header {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 4px 0;
+    color: #00eb7d;
+
+}
+
+p {
+    margin: 0;
+}
+
+.app-section {
+    padding: 16px 0;
+}
+
+.text {
+    padding: 8px 0;
+}

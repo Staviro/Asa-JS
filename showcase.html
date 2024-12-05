@@ -24,48 +24,46 @@
         <div class="container">
             <div class="app-section">
                 <p class="app-header asa-text-content align-center"
-                id="text-versatile" 
-                asa-gap="100" 
-                asa-text="Versatile" 
+                id="text-1" 
+                asa-gap="20" 
+                asa-text="Animating Text Made Super Easy" 
                 asa-run="0"
                 asa-iteration="infinite" 
                 asa-animation="knock"
                 asa-duration="2000"></p>
                 <p class="app-header asa-text-content align-center"
-                id="text-easy" 
-                asa-gap="100" 
-                asa-text="Easy to use" 
+                id="text-2" 
+                asa-gap="20" 
+                asa-text="A variety of animation types!" 
                 asa-run="0"
                 asa-iteration="infinite" 
-                asa-animation="basic"
+                asa-animation="push"
+                asa-duration="2000"></p>
+                <p class="asa-text-content align-center"
+                id="text-3" 
+                asa-gap="20" 
+                asa-text="Regardless of text size and styles!" 
+                asa-run="0"
+                asa-iteration="infinite"
+                asa-duration="2000"></p>
+                <p class="asa-text-content align-center"
+                id="text-3" 
+                asa-gap="20" 
+                asa-text="Regardless of text size and styles!" 
+                asa-run="0"
+                asa-iteration="infinite"
                 asa-duration="2000"></p>
                 <p class="app-header asa-text-content align-center"
-                id="text-light" 
-                asa-gap="40" 
-                asa-text="Lightweight" 
+                id="text-4" 
+                asa-gap="20" 
+                asa-text="Make your website fun & interactive" 
                 asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="push"
+                asa-iteration="infinite"
+                asa-animation="rotate"
                 asa-duration="2000"></p>
-                <p class="text-center text app-desc">
-                    Asa JS is a lightweight JavaScript for performing small and simple animations to text. It is very customizable and easy to extend.
+                <p class="text text-center">
+                    Created by Joseph Morukhuladi
                 </p>
-                <p class="text app-desc asa-text-content align-center"
-                id="release" 
-                asa-gap="20" 
-                asa-text="Release Date: 2024 Nov 27" 
-                asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="basic"
-                asa-duration="2000"></p>
-                <p class="text asa-text-content align-center"
-                id="author" 
-                asa-gap="20" 
-                asa-text="Created By Joseph Morukhuladi" 
-                asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="push"
-                asa-duration="2000"></p>
             </div>
         </div>
     </main>
@@ -73,7 +71,7 @@
     <script src="./content/lib/asa.js"></script>
     <script>
         window.addEventListener("load", function() {
-            ['text-versatile', 'text-easy', 'text-light', 'release', 'author']
+            ['text-1', 'text-2', 'text-3', 'text-4']
             .forEach(id => asa.run(document.getElementById(id)));
         })
     </script>
