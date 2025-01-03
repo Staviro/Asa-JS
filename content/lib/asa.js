@@ -14,6 +14,7 @@ const asa = {
         if (typeof(el) == undefined || el == null) return console.error("Element not found");
         let data = asa.getAttrData(el);
         data = asa.setClass(data);
+        el.innerHTML =  null;
         if (!data.run) {
             let index = 0;
             let chars = [...data.text];
