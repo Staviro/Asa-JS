@@ -30,15 +30,15 @@
                 asa-run="0"
                 asa-iteration="infinite" 
                 asa-animation="knock"
-                asa-duration="2000"></p>
+                asa-duration="2000">Versatile</p>
                 <p class="app-header asa-text-content align-center"
                 id="text-easy" 
                 asa-gap="100" 
                 asa-text="Easy to use" 
                 asa-run="0"
                 asa-iteration="infinite" 
-                asa-animation="basic"
-                asa-duration="2000"></p>
+                asa-animation="basic-half"
+                asa-duration="2000">Easy to use</p>
                 <p class="app-header asa-text-content align-center"
                 id="text-light" 
                 asa-gap="40" 
@@ -46,9 +46,9 @@
                 asa-run="0"
                 asa-iteration="infinite" 
                 asa-animation="push"
-                asa-duration="2000"></p>
+                asa-duration="2000">Lightweight</p>
                 <p class="text-center text app-desc">
-                    Asa JS is a lightweight JavaScript for performing small and simple animations to text. It is very customizable and easy to extend.
+                    Asa JS is a lightweight JavaScript library for performing small and simple animations to text. It is very customizable and easy to extend.
                 </p>
                 <p class="text app-desc asa-text-content align-center"
                 id="release" 
@@ -71,11 +71,9 @@
     </main>
 
     <script src="./content/lib/asa.js"></script>
-    <script>
-        window.addEventListener("load", function() {
-            ['text-versatile', 'text-easy', 'text-light', 'release', 'author']
-            .forEach(id => asa.run(document.getElementById(id)));
-        })
+    <script async>
+        ['text-versatile', 'text-easy', 'text-light', 'release', 'author']
+        .forEach(id => asa.run(document.getElementById(id)));
     </script>
 </body>
 </html>
