@@ -3,77 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./content/css/main.css"/>
     <link rel="stylesheet" href="./content/lib/asa.css"/>
+    <link rel="stylesheet" href="./content/libraries/malo1.3.1/malo.css">
+    <link rel="stylesheet" href="./content/css/main.css"/>
     <title>ASA JS</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <div class="nav-content">
-                    <div class="nav-brand">Asa.JS</div>
-                    <div class="nav-right-content">
-                        <div class="nav-version">Version Beta</div>
-                    </div>
-                </nav>
-            </div>
-        </nav>
-    </header>
     <main>
-        <div class="container">
-            <div class="app-section">
-                <p class="app-header asa-text-content align-center"
-                id="text-versatile" 
-                asa-gap="100" 
-                asa-text="Versatile" 
-                asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="knock"
-                asa-duration="2000">Versatile</p>
-                <p class="app-header asa-text-content align-center"
-                id="text-easy" 
-                asa-gap="100" 
-                asa-text="Easy to use" 
-                asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="basic-half"
-                asa-duration="2000">Easy to use</p>
-                <p class="app-header asa-text-content align-center"
-                id="text-light" 
-                asa-gap="40" 
-                asa-text="Lightweight" 
-                asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="push"
-                asa-duration="2000">Lightweight</p>
-                <p class="text-center text app-desc">
-                    Asa JS is a lightweight JavaScript library for performing small and simple animations to text. It is very customizable and easy to extend.
-                </p>
-                <p class="text app-desc asa-text-content align-center"
-                id="release" 
-                asa-gap="20" 
-                asa-text="Release Date: 2024 Nov 27" 
-                asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="basic"
-                asa-duration="2000"></p>
-                <p class="text asa-text-content align-center"
-                id="author" 
-                asa-gap="20" 
-                asa-text="Created By Joseph Morukhuladi" 
-                asa-run="0"
-                asa-iteration="infinite" 
-                asa-animation="push"
-                asa-duration="2000"></p>
+        <div class="cards-container">
+            <div class="card active" style="display: block;" id="cc-1">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-1" 
+                    asa-gap="40" 
+                    asa-text="Type by Type" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="basic"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+            <div class="card" id="cc-2">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-2" 
+                    asa-gap="40" 
+                    asa-text="Character Perfect" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="basic-half"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+            <div class="card" id="cc-3">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-3" 
+                    asa-gap="40" 
+                    asa-text="Unleash the Letter" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="rotate"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+             <div class="card" id="cc-4">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-4" 
+                    asa-gap="40" 
+                    asa-text="Beyond the Word" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="push"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+             <div class="card" id="cc-5">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-5" 
+                    asa-gap="50" 
+                    asa-text="Pixel by Pixel" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="knock"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+             <div class="card" id="cc-6">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-6" 
+                    asa-gap="50" 
+                    asa-text="One Character at a Time" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="fade"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+             <div class="card" id="cc-7">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-7" 
+                    asa-gap="20" 
+                    asa-text="Text That Moves You" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="flip-x"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+             <div class="card" id="cc-8">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-8" 
+                    asa-gap="20" 
+                    asa-text="Animate Your Message" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="flip-y"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+             <div class="card" id="cc-9">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-9" 
+                    asa-gap="40" 
+                    asa-text="Simply Animate Your Text" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="wave"
+                    asa-duration="2000"></p>
+                </div>
+            </div>
+             <div class="card" id="cc-10">
+                <div class="card-content">
+                    <p class="asa-text-content"
+                    id="card-10" 
+                    asa-gap="20" 
+                    asa-text="https://github.com/Staviro/Asa-JS" 
+                    asa-run="0"
+                    asa-iteration="infinite" 
+                    asa-animation="basic-half"
+                    asa-duration="2000"></p>
+                </div>
             </div>
         </div>
     </main>
-
+    <script src="./content/libraries/malo1.3.1/malo.js"></script>
     <script src="./content/lib/asa.js"></script>
-    <script async>
-        ['text-versatile', 'text-easy', 'text-light', 'release', 'author']
+    <script src="./content/js/switcher.js"></script>
+    <script>
+        ['card-1', 'card-2', 'card-3', 'card-4', 'card-5', 'card-6', 'card-7', 'card-8', 'card-9', 'card-10']
         .forEach(id => asa.run(document.getElementById(id)));
+        switcher.start();
     </script>
 </body>
 </html>

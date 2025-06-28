@@ -2,33 +2,6 @@
   font-family: "primary";
   src: url("../fonts/DMSans-VariableFont_opsz,wght.ttf");
 }
-.nav-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 0;
-}
-
-nav {
-  border-bottom: 1px solid #333;
-}
-
-.nav-brand {
-  font-size: 22px;
-  display: flex;
-}
-
-.nav-version {
-  font-weight: bold;
-}
-
-.text-gradient, .nav-version {
-  color: transparent;
-  background: linear-gradient(to right, #00eb7d, #c739ff);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 html {
   background: #0a0a0a;
   background: radial-gradient(circle at top right, #0a0a0a, #0f0f0f, #071409, #0a0a0f);
@@ -40,10 +13,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   font-display: swap;
-  height: 100vh;
-  width: 100vw;
   color: white;
-  font-weight: 300;
 }
 body button, body input {
   font-family: "primary", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -51,46 +21,40 @@ body button, body input {
   font-display: swap;
 }
 
-.container {
-  padding: 0 16px;
-  max-width: 992px;
-  margin: 0 auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.align-center {
-  justify-content: center;
-  align-items: center;
-}
-
-.app-desc {
-  font-size: 18px;
-  padding: 22px 0;
-}
-
 .asa-text-content {
   display: flex;
+  font-size: 28px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.app-header {
-  font-size: 42px;
-  font-weight: bold;
-  margin: 0 auto;
-  padding: 4px 0;
-  color: #00eb7d;
+.cards-container {
+  height: 100dvh;
+  width: 100dvw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
 }
 
-p {
-  margin: 0;
-}
-
-.app-section {
-  padding: 16px 0;
-}
-
-.text {
-  padding: 8px 0;
+.card {
+  padding: 20px 28px;
+  border-radius: 22px;
+  background-color: rgba(255, 255, 255, 0.05);
+  max-width: 412px;
+  width: calc(100% - 32px);
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  display: none;
 }/*# sourceMappingURL=main.css.map */
