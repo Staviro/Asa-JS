@@ -1,3 +1,7 @@
+/**
+ * ASA V1.0.0
+ * (c) 2026 Joseph Morukhuladi. All rights reserved.
+ */
 [asa-run="0"] {
   visibility: hidden;
 }
@@ -10,6 +14,56 @@
   animation-name: asa-animation-basic;
   animation-duration: 1s;
   animation-iteration-count: 1;
+}
+
+.asa-animation-basic-half {
+  animation-name: asa-animation-basic-half;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.asa-animation-rotate {
+  animation-name: asa-animation-rotate;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.asa-animation-push {
+  animation-name: asa-animation-push;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.asa-animation-knock {
+  animation-name: asa-animation-knock;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.asa-animation-fade {
+  animation-name: asa-animation-fade;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+.asa-animation-flip-x {
+  animation-name: asa-animation-flip-x;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.asa-animation-flip-y {
+  animation-name: asa-animation-flip-y;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.asa-animation-wave {
+  animation-name: asa-animation-wave;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes asa-animation-basic {
@@ -29,12 +83,6 @@
     transform: scale(100%);
   }
 }
-.asa-animation-basic-half {
-  animation-name: asa-animation-basic-half;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
 @keyframes asa-animation-basic-half {
   0% {
     transform: scale(100%);
@@ -52,12 +100,6 @@
     transform: scale(100%);
   }
 }
-.asa-animation-rotate {
-  animation-name: asa-animation-rotate;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
 @keyframes asa-animation-rotate {
   0% {
     transform: scale(100%);
@@ -84,12 +126,6 @@
     opacity: 1;
   }
 }
-.asa-animation-push {
-  animation-name: asa-animation-push;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
 @keyframes asa-animation-push {
   0% {
     transform: translateX(0px);
@@ -110,12 +146,6 @@
     transform: translateX(0px);
   }
 }
-.asa-animation-knock {
-  animation-name: asa-animation-knock;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
 @keyframes asa-animation-knock {
   0% {
     transform: skewX(0deg);
@@ -136,13 +166,6 @@
     transform: skewX(0deg);
   }
 }
-.asa-animation-fade {
-  animation-name: asa-animation-fade;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-}
-
 @keyframes asa-animation-fade {
   0% {
     opacity: 1;
@@ -157,12 +180,6 @@
     opacity: 1;
   }
 }
-.asa-animation-flip-x {
-  animation-name: asa-animation-flip-x;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
 @keyframes asa-animation-flip-x {
   0% {
     transform: rotateX(0deg);
@@ -177,12 +194,6 @@
     transform: rotateX(0deg);
   }
 }
-.asa-animation-flip-y {
-  animation-name: asa-animation-flip-y;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
 @keyframes asa-animation-flip-y {
   0% {
     transform: rotateY(0deg);
@@ -197,13 +208,6 @@
     transform: rotateY(0deg);
   }
 }
-.asa-animation-wave {
-  animation-name: asa-animation-wave;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-}
-
 @keyframes asa-animation-wave {
   0% {
     transform: translateY(0%);
